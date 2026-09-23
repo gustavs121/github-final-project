@@ -20,3 +20,5 @@ read time
 interest=\((echo "scale=2; (\)principal * \(rate *\)time) / 100" | bc)
 
 echo "The simple interest is: $interest"
+git checkout main
+git merge bug-fix-typo
